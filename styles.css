@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    row-gap: 2rem;
+}
+
+.logo-container {
+    width: fit-content;
+    height: auto;
+}
+
+.logo-container img{
+    width: 4rem;
+    height: auto;
+}
+
+.form-title-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    float: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title-container h3 {
+    font-size: 1.5rem;
+}
+
+.actual-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.6rem;
+}
+
+.email-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.6rem;
+}
+
+.email-field-container {
+    width: 100%;
+    height: auto;
+}
+
+.email-container label {
+    font-size: 0.9rem;
+}
+
+.email-container input {
+    width: 100%;
+    border: 0.063rem solid #94a3b8;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.password-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.6rem;
+}
+
+.password-text-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-text-container label {
+    font-size: 0.9rem;
+}
+
+.forgot {
+    font-size: 0.9rem;
+}
+
+.password-field-container {
+    width: 100%;
+    height: auto;
+}
+
+.password-field-container input {
+    width: 100%;
+    border: 0.063rem solid #94a3b8;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.button-container {
+    width: 100%;
+    height: auto;
+}
+
+.button-container button {
+    width: 100%;
+    background-color: #5046E5;
+    color: white;
+    padding: 0.6rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #6466F1;
+}
+
+.my-link {
+    color: #5046E5;
+    text-decoration: none;
+}
+
+.my-link:hover {
+    color: #6466F1;
+}
